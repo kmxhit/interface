@@ -66,10 +66,13 @@ import { didUserReject } from 'utils/swapErrorToUserReadableMessage'
 import { useIsDarkMode } from '../../theme/components/ThemeToggle'
 import { OutputTaxTooltipBody } from './TaxTooltipBody'
 
-export const ArrowContainer = styled.div`
+export const ArrowContainer = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
 
   width: 100%;
   height: 100%;
